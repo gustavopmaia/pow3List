@@ -1,4 +1,2 @@
-import Data.List
-import System.IO
-
-pow3List = [3^n | n <- [1..10]]
+pow3List :: Integral a => [a]
+pow3List = [n^3 | n <- [1..10]]
